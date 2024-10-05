@@ -36,9 +36,7 @@
 #### General Actions in VSC:
 - **Checkin**
     - Git의 commit이다. 내가 작업하던 거를 저장소에 집어넣는 것.
-    
-    - ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/f05873aa-ab08-454a-bed1-298b6900758c/image.png)
-    
+    - ![checkin.png](./images/checkin.png)
     - 버전별로 구성이 변화해가고 있음
     - 변화하는 과정에서 r3의 juice가 checkout이 되고, r4에서는 soup이 체크인 됨
 - **CheckOut and Editing**
@@ -47,25 +45,24 @@
     - 편집
 - **Diffs**
     - 여러가지 버전 중 차이 점을 제공함
-    
-    - ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/acd7054c-0f33-4931-a3cf-0b45867094f4/image.png)
+    - ![diffs.png](./images/diffs.png)
     
 - **Branching**
     - 각각의 기능들을 분리하는 것
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/ee9c9ce4-69b4-42dc-a9f8-425cbbe14c61/image.png)
+        ![branching.png](./images/branch.png)
         
     - r6 ≠ r7 , 가지치기를 하고 편집 추가 등등을 거치면서 서로 다르게 변화가 생김
 - **Merging**
     - 분리되어 있는 기능들을 합치는 것
     - how to combine ? 이 핵심 key
         
-    - ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/11fdc8c4-a256-42e9-8ebf-3d8861cd7779/image.png)
+    - ![merging.png](./images/merge.png)
 - **Conflicts**
     - merge하는 과정에서 충돌이 발생할 수 있음.
     - 이런 충돌들을 해결하는 과정 .. 은 대개 사람들이 메뉴얼하게 수정함
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/96759d3c-9488-4b25-b5cf-bffdfa8f7055/image.png)
+        ![conflicts.png](./images/conflict.png)
         
     - How to resolve ?
         - 이 상황에서는 Sue가 r4 +Hot dog 하기..
@@ -73,7 +70,7 @@
 - **Tagging**
     - 사용자 관점에 대해서 중요한 곳에 버전과 같은 태그를 붙여서, 패치나 체크아웃 할 때 쉽게 함
 - **실제 사례**  
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/2ef1e399-5715-42ab-8995-e8a1936094b1/image.png)
+    ![real_life_example.png](./images/real_life_example.png)
 
 각각 서로 다른 분야를 개발하고, 메인 트렁크에 버전을 보낸 후, merge를 진행 및 업데이트 !!
 #### Two Main Types of VCS
@@ -87,7 +84,7 @@
     - 대표적 예시 : GIT
     - pull - 가져오기 push - 보내기
 ## Week 2-2 Git
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/8dc559ee-0a16-4d75-93a0-79c2ecc5c424/image.png)
+![git_worflow.png](./images/git_workflow.png)
 
 - **git add** 를 통해 index로 목록으로 listing 됨
 - **git commit**을 통해, index에서 listing된 파일들을 local로 보내서, local에서 버전 관리를 시작함
@@ -101,7 +98,7 @@
 
 ### **제일 중요한 것 !!**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7f01dadd-dc72-468e-aab5-3a6ae0eabf1b/9b0cfa83-1dff-4dc0-9349-0238e5488e45/image.png)
+![git_summary.png](./images/git_summary.png)
 
 >remote repo : 원격 저장소  
 >workspace : 실제로 내가 작업하고 있는 곳  
